@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4f8af8;
+    color: white;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#hamburger-menu {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.show {
+    display: block;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #4f8af8;
+    color: #f4f4f4;
+    text-align: center;
+}

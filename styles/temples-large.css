@@ -1,0 +1,11 @@
+@media(min-width: 768px) {
+    nav ul {
+        flex-direction: row; /* Align menu items horizontally on larger screens */
+        display: flex;
+        gap: 1rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns layout on larger screens */
+    }
+}
