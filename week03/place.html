@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Costa Rica</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Costa Rica</h1>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Explore the Wonders of Costa Rica</h2>
+            <p>Your adventure begins here.</p>
+        </div>
+        <picture>
+            <img src="images/hero-small.webp.jpg" alt="Beautiful landscape of Costa Rica">
+            <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+            <source media="(min-width: 600px)" srcset="images/hero-large.webp">
+        </picture>
+    </section>
+
+    <section id="weather">
+        <h2>Weather</h2>
+        <img src="images/weather.png" alt="weather" width="50">
+        <div id="windchill-container">
+            <p>Temperature: <span id="temperature">15°C</span></p>
+            <p>Wind Speed: <span id="windspeed">10 km/h</span></p>
+            <p>Windchill: <span id="windchill">Loading...</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Darma Lopez Solis. Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
