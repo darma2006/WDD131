@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skate Club</title>
+    <link rel="stylesheet" href="styles/Skate.css">
+    <script src="scripts/Skate.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng&id=p28#p28" target="_blank">Favorite Scripture</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <img src="images/skateboard.png" alt="skate logo" width="100">
+        <h1>Welcome to Our Skate Club!</h1>
+        <p>Join us for skateboarding events and fun!</p>
+
+        <h2>Upcoming Event</h2>
+        <p id="event-date">Next event: TBA</p>
+
+        <button id="changeEventBtn">Change Event Date</button>
+    </main>
+
+    <section id="about">
+        <h1>About Our Skate Club</h1>
+        <p>We are a local skateboarding community that enjoys skateboarding in our area. Join us for events, meetups, and competitions!</p>
+
+        <h2>Our Mission</h2>
+        <p>Our goal is to promote skateboarding as a fun and inclusive activity for everyone. We host regular events and provide a space for skaters of all levels to connect.</p>
+    </section>
+
+    <section id="events">
+        <h1>Upcoming Events</h1>
+        <p>Join us at the next skate event!</p>
+
+        <h2>Register for an Event</h2>
+        <form id="eventForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            <label for="event">Event:</label>
+            <select id="event">
+                <option value="skate_competition">Skate Competition</option>
+                <option value="street_skating">Street Skating Meetup</option>
+            </select><br>
+            <button type="submit">Register</button>
+        </form>
+
+        <div id="confirmationMessage"></div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Darma Lopez Solis. Last modified: <span id="lastModified"></span></p>
+    </footer>
+
+</body>
+</html>
