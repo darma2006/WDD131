@@ -1,0 +1,73 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #34db5e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+
+section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    color: #086610;
+}
+
+section p, section ul {
+    font-size: 16px;
+    color: #7F8C8D;
+}
+
+
+ul {
+    margin-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #34db5e;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    section {
+        margin-top: 15px;
+    }
+}
